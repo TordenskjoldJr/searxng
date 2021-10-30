@@ -3,6 +3,8 @@ general:
   instance_name: "SearXNG"  # displayed name
   contact_url: false        # mailto:contact@example.com
   enable_metrics: true      # record stats
+  legal_name: ""
+  legal_url:
 
 brand:
   new_issue_url: https://github.com/searxng/searxng/issues/new
@@ -10,6 +12,8 @@ brand:
   public_instances: https://searx.space
   wiki_url: https://github.com/searxng/searxng/wiki
   issue_url: https://github.com/searxng/searxng/issues
+  website_name: ""
+  website_url:
 
 search:
   # Filter results. 0: None, 1: Moderate, 2: Strict
